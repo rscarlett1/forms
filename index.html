@@ -19,18 +19,40 @@
 		
 		<div>
 		<label for="full-name">Full Name</label>
-		<input type="text" id="full-name">
+		<input type="text" id="full-name" required> <!--min and max length option available-->
 		</div>
 
 		<div>
 		<label for="email">Email</label>
-		<input type="email" id="email">
+		<input type="email" id="email" required>
 		</div>
 
 		<div>
-		<label for="phone">Email</label>
+		<label for="phone">Phone</label>
 		<input type="tel" id="phone">
 		</div>
+
+		<div>
+		<label for="website">Your Website</label>
+		<input type="url" id="website">
+		</div>
+
+		<div>
+		<label for="quantity">Your Website</label>
+		<input type="number" id="quantity" min="1" max="500"> <!--min and max amount option available for number-->
+		</div>
+
+		<div>
+		<label for="date">Check-In</label>
+		<input type="date" id="date">
+		</div>
+
+
+
+
+
+
+		<input type="submit">
 
 	</form>
 
